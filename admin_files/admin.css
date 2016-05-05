@@ -1,0 +1,223 @@
+#left-container{
+	width:278px;
+	padding:10px;
+	overflow:hidden;
+	margin:0 15px 0 0;
+	height:100%;
+	float:left;
+}
+
+.lgrey{
+	background:#f7f7f7;
+}
+
+#right-container {
+width:644px;
+padding:0 0 0 15px;
+min-height:500px;
+margin-left:300px;
+margin-top:25px;
+}
+
+#left-container ul{
+	margin:0;
+	padding:0;
+}
+
+#left-container li{
+	background:rgb(55, 64, 79);
+	border-radius:4px;
+	list-style-type: none;
+	margin:0 0 4px 0;
+	height:40px;
+}
+
+#left-container li li{
+display:none;
+}
+
+/* admin menu sprites */
+#dashboard a{
+background:url(admin-sprites.png) 0 4px no-repeat;
+padding:2px;
+}
+#profiles a{
+background:url(admin-sprites.png) 0 -39px no-repeat;
+padding:2px;
+}
+#comments a{
+background:url(admin-sprites.png) 0 -83px no-repeat;
+padding:2px;
+}
+#users a{
+background:url(admin-sprites.png) 0 -126px no-repeat;
+padding:2px;
+}
+
+#left-container li a{
+	font: normal 18px/43px "AvenirMedium";
+	letter-spacing:1px;
+	color:#FFF;
+	text-decoration:none;
+	padding-left:45px;
+	margin-left:12px;
+	display:block;
+}
+
+#left-container .active{
+	background:url(admin-active.jpg) repeat-x;
+}
+
+
+#search-container{
+overflow:hidden;
+padding:15px;
+margin-bottom:8px;
+}
+
+.admin-title{
+	color:#2ea5df;
+	font: normal 15px/40px "AvenirHeavy";
+}
+#search-form{
+	margin:0;
+	padding:0;
+	height:41px;
+}
+
+#form-container{
+	width:250px;
+	overflow:hidden;	
+	float:right;
+	margin-right:-48px;
+}
+
+#form-container input[type="text"]{
+	width:203px;
+	height:42px;
+	margin:0;
+	padding:0;
+	border:0;
+	color:#666;
+	font: normal 14px/14px "AvenirMedium";
+	padding-left:10px;
+}
+
+#form-container [type="submit"]{
+	width:32px;
+	height:36px;
+	margin:0;
+	position:relative;
+	right:49px;
+	top:-1px;
+	padding:0;
+	border:0;
+}
+
+#list-container{
+	font: normal 12px/12px "AvenirMedium";
+	overflow:hidden;	
+	margin-bottom:16px;
+}
+.thead{
+	border-bottom:8px solid #FFF;
+}
+.headlinks{
+	text-decoration: none;
+	color:#9e9e9e;
+}
+.listlinks{
+	text-decoration: none;
+	color:#2ea5df;
+}
+/* results rules */
+#results-container{
+	padding:8px;
+	margin-bottom:8px;	
+	padding-left:15px;
+	font: normal 14px/14px "AvenirHeavy";	
+}
+
+/* filter rules */
+#filter-container{
+	padding:25px 0 25px 5px;
+	margin-bottom:8px;	
+	overflow:hidden;	
+	font: normal 14px/14px "AvenirMedium";	
+}
+
+.admin-filters ul{
+	margin:0;
+	padding:5px;
+	padding-left:0;
+}
+.admin-filters li{
+	display: inline;
+}
+.admin-filters{
+	color:#2ea5df;
+	font: normal 14px/14px "AvenirHeavy";
+}
+.admin-filters li:first-child{
+	color:#333;
+}
+.admin-filters a{
+	color:#2ea5df;
+	letter-spacing:1px;
+	text-decoration: none;
+}
+
+/* list rules */
+#list-container .list-items tr{
+	/*border-bottom:1px solid #CCC;*/
+}
+
+#list-container tr:last-child{
+	/*border-bottom:0;
+	background:#FFF;*/
+}
+
+#list-container .list-items td{
+	border-right:1px solid #CCC;
+	border-left:1px solid #FFF;
+	border-bottom:1px solid #CCC;
+	border-top:1px solid #FFF;
+	padding:15px;
+}
+#list-container td:last-child{
+	border-right:0;
+	padding:15px;
+}
+
+.pager, .pager td, .pager tr, .pagertd{border:0;border-bottom:0;}
+
+.flagged{color:red;}
+.approved{color:green;}
+.pending{color:orange;}
+.inactive{color:grey;}
+
+#edit-container{
+	padding:15px;
+	font: normal 14px/14px "AvenirHeavy";
+}
+#edit-container textarea{
+	background: #e9e9e9;
+	border:0px;
+	padding:10px;
+	border-radius: 3px;
+	font: normal 14px/14px "AvenirMedium";
+}
+
+.form-content .left{
+float:left;
+width:45%;
+margin-right:50px;
+border-right:1px solid rgb(223,220,220)
+}
+.form-content .cancel{
+	float:right;
+	margin-right:60px;
+	font-size:12px;
+	text-decoration: none;
+	color:orange;
+}
